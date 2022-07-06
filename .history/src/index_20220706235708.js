@@ -233,42 +233,35 @@
 // root.render(<Header favcol="yellow"/>);
 
 
-// import React from 'react';
-// import ReactDOM from 'react-dom/client';
+import React from 'react';
+import ReactDOM from 'react-dom/client';
 
-// class Header extends React.Component {
-//   render() {
-//     return (
-//       <h1>This is the content of the Header component</h1>
-//     );
-//   }
-// }
+class Header extends React.Component {
+  render() {
+    return (
+      <h1>This is the content of the Header component</h1>
+    );
+  }
+}
 
-// const root = ReactDOM.createRoot(document.getElementById('root'));
-// root.render(<Header />);
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<Header />);
 
 
 
 //Componend DidMount()
+import React from 'react';
+import ReactDOM from 'react-dom/client';
 
-// import React from 'react';
-// import ReactDOM from 'react-dom/client';
-// class Header extends React.Component {
-//     constructor(props) {
-//       super(props);
-//       this.state = {favoritecolor: "red"};
-//     }
-//     componentDidMount() {
-//       setTimeout(() => {
-//         this.setState({favoritecolor: "yellow"})
-//       }, 1000)
-//     }
-// render() {
-//     return (
-//       <h1>My Favorite Color is {this.state.favoritecolor}</h1>
-//     );
-//   }
+class Header extends React.Component {
+    constructor(props){
+        super(props);
+        this.state={favoritColor:"red"};
+    }
 
-// }
-// const root = ReactDOM.createRoot(document.getElementById('root'));
-// root.render(<Header />);
+    componentDidMount(){
+        setTimeout(()=>{
+          this.setState({favoritColor:})
+        },1000)
+    }
+}
