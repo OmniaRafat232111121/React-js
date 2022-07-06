@@ -204,8 +204,8 @@ import ReactDOM from 'react-dom/client';
 // const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(<Header />);
 
-// import React from 'react';
-// import ReactDOM from 'react-dom/client';
+import React from 'react';
+import ReactDOM from 'react-dom/client';
 
 class Header extends React.Component {
   constructor(props) {

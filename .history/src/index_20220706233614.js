@@ -203,9 +203,10 @@ import ReactDOM from 'react-dom/client';
 // }
 // const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(<Header />);
+Result Size: 683 x 507
 
-// import React from 'react';
-// import ReactDOM from 'react-dom/client';
+import React from 'react';
+import ReactDOM from 'react-dom/client';
 
 class Header extends React.Component {
   constructor(props) {

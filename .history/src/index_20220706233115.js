@@ -187,9 +187,8 @@
 // const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(<Car />);
 
-import React from 'react';
-import { render } from 'react-dom';
-import ReactDOM from 'react-dom/client';
+// import React from 'react';
+// import ReactDOM from 'react-dom/client';
 // class Header extends React.Component{
 //     constructor(props){
 //         super(props);
@@ -203,24 +202,9 @@ import ReactDOM from 'react-dom/client';
 // }
 // const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(<Header />);
-
-// import React from 'react';
-// import ReactDOM from 'react-dom/client';
-
-class Header extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {favoritecolor: "red"};
-  }
-  static getDerivedStateFromProps(props, state) {
-    return {favoritecolor: props.favcol };
-  }
-  render() {
-    return (
-      <h1>My Favorite Color is {this.state.favoritecolor}</h1>
-    );
-  }
+class Header extends React.Component{
+    constructor(props){
+        super(props);
+        this.state={}
+    }
 }
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<Header favcol="yellow"/>);
