@@ -74,8 +74,8 @@
 // const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(myElement);
 
-//  import React from 'react';
-//  import ReactDOM from 'react-dom/client';
+ import React from 'react';
+ import ReactDOM from 'react-dom/client';
 
 // class Car extends React.Component {
 //     constructor(){
@@ -113,76 +113,14 @@
 //   root.render(<Car  model="Mustang"/>);
 
 
-// import React from 'react';
-// import ReactDOM from 'react-dom/client';
 
-// class Car extends React.Component {
-//   constructor(props) {
-//     super(props);
-//     this.state = {
-//       brand: "Ford",
-//       model: "Mustang",
-//       color: "red",
-//       year: 1964
-//     };
-//   }
-//   render() {
-//     return (
-//       <div>
-//         <h1>My {this.state.brand}</h1>
-//         <p>
-//           It is a {this.state.color}
-//           {this.state.model}
-//           from {this.state.year}.
-//         </p>
-//       </div>
-//     );
-//   }
-// }
+class G extends React.Component{
+    render(){
+        return (
+            <div>
+            <h1>Who lives in my Garage?</h1>
 
-// ReactDOM.render(<Car />, document.getElementById('root'));
-
-
-
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-
-class Car extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      brand: "Ford",
-      model: "Mustang",
-      color: "red",
-      year: 1964
-    };
-  }
-  changeColor = () => {
-    this.setState({color: "blue"});
-  }
-  changeModel=()=>{
-    this.setState({model:"tyota"});
-  }
-  render() {
-    return (
-      <div>
-        <h1>My {this.state.brand}</h1>
-        <p>
-          It is a {this.state.color}
-   
-          from {this.state.year}.
-        </p>
-        <p>
-        {this.state.model}</p>
-        <button
-          type="button"
-          onClick={this.changeColor}
-        >Change color</button>
-        <button type="button" onClick={this.changeModel}>Change Model</button>
-      </div>
-    );
-  }
+            </div>
+        )
+    }
 }
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<Car />);

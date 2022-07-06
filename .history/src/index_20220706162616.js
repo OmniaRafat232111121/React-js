@@ -161,7 +161,7 @@ class Car extends React.Component {
     this.setState({color: "blue"});
   }
   changeModel=()=>{
-    this.setState({model:"tyota"});
+    this.setState()
   }
   render() {
     return (
@@ -169,16 +169,13 @@ class Car extends React.Component {
         <h1>My {this.state.brand}</h1>
         <p>
           It is a {this.state.color}
-   
+          {this.state.model}
           from {this.state.year}.
         </p>
-        <p>
-        {this.state.model}</p>
         <button
           type="button"
           onClick={this.changeColor}
         >Change color</button>
-        <button type="button" onClick={this.changeModel}>Change Model</button>
       </div>
     );
   }

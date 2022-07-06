@@ -172,8 +172,7 @@ class Car extends React.Component {
    
           from {this.state.year}.
         </p>
-        <p>
-        {this.state.model}</p>
+        <p></p>
         <button
           type="button"
           onClick={this.changeColor}
