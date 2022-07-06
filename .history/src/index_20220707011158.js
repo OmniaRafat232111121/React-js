@@ -304,30 +304,31 @@
 // root.render(<Header favcol="yellow" />);
 
 
-// import React from 'react';
-// import ReactDOM from 'react-dom/client';
+Result Size: 683 x 507
 
-// class Header extends React.Component {
-//   constructor(props) {
-//     super(props);
-//     this.state = {favoritecolor: "red"};
-//   }
-//   shouldComponentUpdate() {
-//     return true;
-//   }
-//   changeColor = () => {
-//     this.setState({favoritecolor: "blue"});
-//   }
-//   render() {
-//     return (
-//       <div>
-//       <h1>My Favorite Color is {this.state.favoritecolor}</h1>
-//       <button type="button" onClick={this.changeColor}>Change color</button>
-//       </div>
-//     );
-//   }
-// }
+import React from 'react';
+import ReactDOM from 'react-dom/client';
 
-// const root = ReactDOM.createRoot(document.getElementById('root'));
-// root.render(<Header />);
+class Header extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {favoritecolor: "red"};
+  }
+  shouldComponentUpdate() {
+    return false;
+  }
+  changeColor = () => {
+    this.setState({favoritecolor: "blue"});
+  }
+  render() {
+    return (
+      <div>
+      <h1>My Favorite Color is {this.state.favoritecolor}</h1>
+      <button type="button" onClick={this.changeColor}>Change color</button>
+      </div>
+    );
+  }
+}
 
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<Header />);
