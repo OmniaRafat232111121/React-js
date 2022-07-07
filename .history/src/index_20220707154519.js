@@ -426,6 +426,8 @@ function Garage(props) {
         <h2>
           You have {cars.length} cars in your garage.
         </h2>
+        &&
+        <h3>you should Buy {}</h3>
       }
     </div>
   );

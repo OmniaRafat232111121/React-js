@@ -431,6 +431,6 @@ function Garage(props) {
   );
 }
 
-const cars = ['Ford', 'BMW', 'Audi','lfkfk'];
+const cars = ['Ford', 'BMW', 'Audi'];
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<Garage cars={cars} />);
