@@ -387,7 +387,7 @@ function Football(){
         alert(b.type);
     }
     return (
-     <button onClick={(e)=>shoot("Goal",e)}>Take a shoot</button>
+     <button onClick={()}></button>
     )
 }
 const root = ReactDOM.createRoot(document.getElementById('root'));

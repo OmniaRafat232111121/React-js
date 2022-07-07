@@ -369,26 +369,3 @@
 // const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(<Garage />);
 
-
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-
-// function Football() {
-//   const shoot = () => {
-//     alert("Great Shot!");
-//   }
-
-//   return (
-//     <button onClick={shoot}>Take the shot!</button>
-//   );
-// }
-function Football(){
-    const shoot =(a,b)=>{
-        alert(b.type);
-    }
-    return (
-     <button onClick={(e)=>shoot("Goal",e)}>Take a shoot</button>
-    )
-}
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<Football />);
