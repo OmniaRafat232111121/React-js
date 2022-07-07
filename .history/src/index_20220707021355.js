@@ -353,10 +353,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 function Car(props){
-    return <h2>{props.brand}</h2>
+    return <h2>{props.brand.m}</h2>
 }
 function Garage(){
-    const carinfo="Fod";
+    const carinfo={name:"Ford",model:"Mustang"};
     return(
         <div>
         <h1>who lives in my Garage?</h1>

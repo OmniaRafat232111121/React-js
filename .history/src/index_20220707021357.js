@@ -356,7 +356,7 @@ function Car(props){
     return <h2>{props.brand}</h2>
 }
 function Garage(){
-    const carinfo="Fod";
+    const carinfo={name:"Ford",model:"Mustang"};
     return(
         <div>
         <h1>who lives in my Garage?</h1>
