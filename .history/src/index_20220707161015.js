@@ -436,25 +436,4 @@ import ReactDOM from 'react-dom/client';
 // root.render(<Garage cars={cars} />);
 
 
-function Car(props){
-    return <li>i am  {props.brand}</li>
-}
-function Garage(){
-const cars=[
-    {id: 1, brand: 'Ford'},
-    {id: 2, brand: 'BMW'},
-    {id: 3, brand: 'Audi'}
-];
-
-return(
-    <div>
-    <h1>who live sin my Garage?</h1>
-    <ul>
-    {cars.map((car)=><Car key={car.id} brand={car.brand} />)}
-    </ul>
-    </div>
-);
-}
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<Garage />);
+function Car(pro)
