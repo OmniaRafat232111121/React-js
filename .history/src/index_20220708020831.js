@@ -460,25 +460,6 @@ import ReactDOM from 'react-dom/client';
 // root.render(<Garage />);
 
 
-// const clickHandler=(e)=>{
-//     //click logic Here
-// }
-// <input onClick={clickHandler} />
+
 // {myList.map(item=><div key={item.id}>Hello</div>)}
-//{React.Children.toArray(myList.map(item=><div>Hello?</div>)}
-// {return user.isAdmin && <AdminComponent />}
-// const props={user,followers,posts};
-// <Profile {...props} />
-//Hooks=>Function Component
-// import PropTypes from 'prop-types'
-// const Greeting=({name})=>{
-// return(
-//     <h1>Helo {name}</h1>
-// )
-// }
-// Greeting.PropTypes={
-//     name:PropTypes.string
-// }
-
-
-//form
+//{React.}

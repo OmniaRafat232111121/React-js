@@ -469,16 +469,4 @@ import ReactDOM from 'react-dom/client';
 // {return user.isAdmin && <AdminComponent />}
 // const props={user,followers,posts};
 // <Profile {...props} />
-//Hooks=>Function Component
-// import PropTypes from 'prop-types'
-// const Greeting=({name})=>{
-// return(
-//     <h1>Helo {name}</h1>
-// )
-// }
-// Greeting.PropTypes={
-//     name:PropTypes.string
-// }
-
-
-//form
+//Hooks=>Functio

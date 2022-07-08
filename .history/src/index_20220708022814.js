@@ -479,6 +479,3 @@ import ReactDOM from 'react-dom/client';
 // Greeting.PropTypes={
 //     name:PropTypes.string
 // }
-
-
-//form
