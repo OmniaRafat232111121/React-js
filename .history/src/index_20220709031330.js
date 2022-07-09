@@ -497,7 +497,7 @@ import ReactDOM from 'react-dom/client';
 // root.render(<MyForm />);
 
 
-// import React,{ useState } from "react";
+import { useState } from "react";
 
 // function MyForm(){
 //     const [textarea,setTextarea]=useState('The Good Value is Good Practisce ykfk');
@@ -530,30 +530,15 @@ import ReactDOM from 'react-dom/client';
 
 // }
 
-// function MyForm(){
-//     const [textarea,setTextarea]=useState("The content of textarea goes in the value attribut ");
-//      const[name,setName]=useState("");
-// const handleChange=(e)=>{
-//     setTextarea(e.target.value);
-// }
-// const handleSubmit=(e)=>{
-//     e.preventDefault();
-//     alert(`The name s entered By ${name}`)
-    
-// }
-// return(
-// <form onSubmit={handleSubmit}>
+function MyForm(){
+    const [textarea,setTextarea]=useState("The content of textarea goes in the value attribut ");
 
-// <textarea value={textarea} onChange={handleChange} />
-// <br></br>
-// <br></br>
-// <label> Enter Your Name:
-// <input  type="text value={name}" onChange={(e)=>setName(e.target.value)}/>
-// </label>
-// <input type="submit" />
-// </form>
 
-// );
-// }
-// const root = ReactDOM.createRoot(document.getElementById('root'));
-// root.render(<MyForm />);
+return(
+<form>
+<textarea onChange={handleChange} />
+</form>
+);
+}
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<MyForm />);
