@@ -590,7 +590,7 @@ function FavoriteColor() {
       <h1>My favorite color is {color}!</h1>
       <button
         type="button"
-        onClick={(e)=>setColor("Blue")}
+        onClick={(e)=>setColor("")}
       >Blue</button>
     </div>
   );
