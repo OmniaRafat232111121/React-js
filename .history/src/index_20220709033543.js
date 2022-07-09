@@ -558,27 +558,3 @@
 // const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(<MyForm />);
 
-// import ReactDom from "react-dom"
-// import ReactDOM from "react-dom/client";
-// import { BrowserRouter, Routes, Route } from "react-router-dom";
-// import { Blogs } from "./Blogs";
-
-
-// export default function App() {
-//   return (
-//     <BrowserRouter>
-//       <Routes>
-//        <Route path="blogs" element={<Blogs/>}/>
-     
-//       </Routes>
-//     </BrowserRouter>
-//   );
-// }
-
-// const root = ReactDOM.createRoot(document.getElementById('root'));
-// root.render(<App />);
-
-
-
-
-

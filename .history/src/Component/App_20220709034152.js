@@ -57,12 +57,12 @@
 to simulate an Api setTimeOut then Handle handleSubmit
 
 */
-// import React from 'react'
+import React from 'react'
 
-// const App = () => {
-//   return (
-//     <div>App</div>
-//   )
-// }
+const App = () => {
+  return (
+    <div>App</div>
+  )
+}
 
-// export default App
+export default App
