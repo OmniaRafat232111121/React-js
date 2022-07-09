@@ -499,19 +499,19 @@ import ReactDOM from 'react-dom/client';
 
 import { useState } from "react";
 
-// function MyForm(){
-//     const [textarea,setTextarea]=useState('The Good Value is Good Practisce ykfk');
-// const handleChange=(e)=>{
-//     setTextarea(e.target.value);
-// }
+function MyForm(){
+    const [textarea,setTextarea]=useState('The Good Value is Good Practisce ykfk');
+const handleChange=(e)=>{
+    setTextarea(e.target.value);
+}
+}
 
-
-// return (
-//     <form>
-//       <textarea value={textarea} onChange={handleChange} />
-//     </form>
-//   )
-// }
+return (
+    <form>
+      <textarea value={textarea} onChange={handleChange} />
+    </form>
+  )
+}
 // function MyForm(){
 // const [myCar,setMyCar]=useState("");
 // const handleChange=(e)=>{
@@ -529,7 +529,5 @@ import { useState } from "react";
 // )
 
 // }
-
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<MyForm />);
