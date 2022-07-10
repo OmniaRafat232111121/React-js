@@ -653,4 +653,4 @@
 //useEffect 
 
 //useEffect=>accept sideEffect:Time,fetching Data,upgrading Data
-//useeffect(<function>,<Depency/>) <Depency i soptional/>
+//useeffect(<function>,<Depency/>) <Depency i soption

@@ -648,9 +648,3 @@
 
 // const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(<Car />);
-
-
-//useEffect 
-
-//useEffect=>accept sideEffect:Time,fetching Data,upgrading Data
-//useeffect(<function>,<Depency/>) <Depency i soptional/>

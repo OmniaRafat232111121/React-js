@@ -650,7 +650,9 @@
 // root.render(<Car />);
 
 
-//useEffect 
-
-//useEffect=>accept sideEffect:Time,fetching Data,upgrading Data
-//useeffect(<function>,<Depency/>) <Depency i soptional/>
+//useEffect(() => {
+    effect
+    return () => {
+        cleanup
+    };
+}, [input]);
