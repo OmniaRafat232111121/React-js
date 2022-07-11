@@ -727,45 +727,12 @@
 
 
 
-// import {useState,createContext,useContext} from 'react'
-// import ReactDOM from "react-dom/client";
-// const UserContext=createContext();
-// function Component1(){
-//     const [user,setUser]=useState("omnia");
-//     return(
-//         <UserContext.Provider value={user}>
-//         <h1> {`Hello ${ user}`}</h1>
-//         <Component2 user={user} />
-//         </UserContext.Provider>
-//     )
-// }
-// function Component2(){
-//     return(
-//         <div>
-//         <div> Component2</div>
-//         <Component3 />
-//         </div>
-
-//     )
-// }
-
-// function Component3(){
-//     return(
-//         <div>
-//         <div> Component3</div>
-//         <Component4 />
-//         </div>
-//     )
-// }
-// function Component4(){
-//     const user=useContext(UserContext);
-//     return(
-//         <div>
-//         <div> Component4</div>
-//        <h2>{`Hello ${user}`}</h2>
-//        </div>
-//     )
-// }
-
-// const root = ReactDOM.createRoot(document.getElementById('root'));
-// root.render(<Component1 />);
+import {useState,createContext,useContext} from 'react'
+import ReactDOM from "react-dom/client";
+const UserContext=CreateContext()
+function Component1(){
+    const [user,setUser]=useState("omnia");
+    return(
+        <UserContext.Pro
+    )
+}
