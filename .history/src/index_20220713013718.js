@@ -886,20 +886,4 @@
 //         <textarea ref={textAreaEl} id="story" rows="5" cols="33" />
 //       </section>
 //     );
-//   };
-
-
-
-
-  import { useState, useEffect, useRef } from "react";
-import ReactDOM from "react-dom/client";
-
-function App() {
- const [inputValue,setInputValue]=useState("");
- const previousInputValue=useRef();
-
-  
-}
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<App />);
+  };
