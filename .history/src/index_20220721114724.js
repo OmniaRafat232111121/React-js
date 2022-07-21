@@ -2,8 +2,6 @@
 //  import ReactDOM from 'react-dom/client';
 // import App from './Component/App';
 
-const { render } = require("@testing-library/react")
-
 
 
 
@@ -906,131 +904,23 @@ const { render } = require("@testing-library/react")
 // const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(<App />);
 
-// import { render } from '@testing-library/react'
-// import React,{component} from 'react'
-// class Pigeons extends Component{
-//   constructor(){
-//     super()
-//     this.state={
-//       pigeons:[]
-//     }
-//   }
-// }
-// render(){
-//   return(
-//     <div>
-//     <p>Look at all pigeons spotted today</p>
-//     <ul>
-//     {
-//       this.state.pigeons.map(pigUrl=>{
-//           return <li><img  sr={pigUrl}/></li>
-//         }
-//       )
-//     }
-//     </ul>
-//     </div>
-//   )
-// }
-
-//stateful
-/*stateful*/
-/*smart*/
-/*container*/
-
-// class Main extends Component{
-//   constructor(){
-//     super()
-//     this.state={
-//       books:[]
-//     }
-//   }
-//   render(){
-// <BooksList books={this.state.books} />
-//   }
-// }
-
-//stateless
-/*presetational*/
-/*Dumb*/
-// const BookList=({Books})=>{
-//   return(
-//     <ul>
-//     {Books.map(book=>{
-//       retur<li>book</li>
-//     })}
-//     </ul>
-
-//   )
-// }
-// class Parent extend Component{
-//   consructor(){
-//     super()
-//     this.state={
-//       books:[],
-//       favoritAuthors:[]
-//     }
-//   }
-//   render(){
-//     return(
-//       <div>
-//       <Books books={this.state.books}  />
-//       <favoritAuthors books={this.state.favoritAuthors}  />
-//       </div>
-//     )
-//   }
-// }
-
-// class Main extends Component {
-//   constructor() {
-//     super()
-//     this.state = {
-//       currentUser: {},
-//       gamesAll: [],
-//       gamesMostPopular: []
-//     }
-//   }
-//   render() {
-//     return (
-//       <div>
-//         <p>Welcome, {this.state.currentUser}!</p>
-//         <AllGames allGames={this.state.gamesAll} />
-//         <MostPopular mostPopular={this.state.gamesMostPopular} />
-//       </div>
-//     )
-//   }
-// }
-
-// const List=({props})=>{
-//   return(
-//     <div>
-//     <div className="coolHeader">{props.title}</div>
-//     <ul>
-//     {props.list.map(listItem=>{
-//       <li className="cool">{listItem}</li>
-//     })}
-//     </ul>
-//     </div>
-//   )
-// }
-
-// class Main extends component{
-//   constructor(){
-//     super()
-//     this.state={
-//       input:[]
-//     }
-//   const handleChange=(e) =>{
-//     {
-//     this.setState({
-//       [e.target.name]:e.target.value
-//     })
-//   }
-//   }
-//   render(){
-//     return(
-//       <div>
-//       <input  type="text" name="input"  value={this.state.input} onChange={handleChange}/>
-//       </div>
-//     )
-//   }
-// }
+import { render } from '@testing-library/react'
+import React,{component} from 'react'
+class Pigeons extends Component{
+  constructor(){
+    super()
+    this.state={
+      pigeons:[]
+    }
+  }
+}
+render(){
+  return(
+    <div>
+    <p>Look at all pigeons spotted today</p>
+    <ul>
+    
+    </ul>
+    </div>
+  )
+}

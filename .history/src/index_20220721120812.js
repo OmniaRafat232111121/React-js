@@ -1012,25 +1012,3 @@ const { render } = require("@testing-library/react")
 //     </div>
 //   )
 // }
-
-// class Main extends component{
-//   constructor(){
-//     super()
-//     this.state={
-//       input:[]
-//     }
-//   const handleChange=(e) =>{
-//     {
-//     this.setState({
-//       [e.target.name]:e.target.value
-//     })
-//   }
-//   }
-//   render(){
-//     return(
-//       <div>
-//       <input  type="text" name="input"  value={this.state.input} onChange={handleChange}/>
-//       </div>
-//     )
-//   }
-// }

@@ -980,57 +980,22 @@ const { render } = require("@testing-library/react")
 //   }
 // }
 
-// class Main extends Component {
-//   constructor() {
-//     super()
-//     this.state = {
-//       currentUser: {},
-//       gamesAll: [],
-//       gamesMostPopular: []
-//     }
-//   }
-//   render() {
-//     return (
-//       <div>
-//         <p>Welcome, {this.state.currentUser}!</p>
-//         <AllGames allGames={this.state.gamesAll} />
-//         <MostPopular mostPopular={this.state.gamesMostPopular} />
-//       </div>
-//     )
-//   }
-// }
-
-// const List=({props})=>{
-//   return(
-//     <div>
-//     <div className="coolHeader">{props.title}</div>
-//     <ul>
-//     {props.list.map(listItem=>{
-//       <li className="cool">{listItem}</li>
-//     })}
-//     </ul>
-//     </div>
-//   )
-// }
-
-// class Main extends component{
-//   constructor(){
-//     super()
-//     this.state={
-//       input:[]
-//     }
-//   const handleChange=(e) =>{
-//     {
-//     this.setState({
-//       [e.target.name]:e.target.value
-//     })
-//   }
-//   }
-//   render(){
-//     return(
-//       <div>
-//       <input  type="text" name="input"  value={this.state.input} onChange={handleChange}/>
-//       </div>
-//     )
-//   }
-// }
+class Main extends Component {
+  constructor() {
+    super()
+    this.state = {
+      currentUser: {},
+      gamesAll: [],
+      gamesMostPopular: []
+    }
+  }
+  render() {
+    return (
+      <div>
+        <p>Welcome, {this.state.currentUser}!</p>
+        <AllGames allGames={this.state.gamesAll} />
+        <MostPopular mostPopular={this.state.gamesMostPopular} />
+      </div>
+    )
+  }
+}

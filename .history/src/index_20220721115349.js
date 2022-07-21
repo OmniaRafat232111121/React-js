@@ -2,8 +2,6 @@
 //  import ReactDOM from 'react-dom/client';
 // import App from './Component/App';
 
-const { render } = require("@testing-library/react")
-
 
 
 
@@ -949,88 +947,6 @@ const { render } = require("@testing-library/react")
 //   }
 // }
 
-//stateless
-/*presetational*/
-/*Dumb*/
-// const BookList=({Books})=>{
-//   return(
-//     <ul>
-//     {Books.map(book=>{
-//       retur<li>book</li>
-//     })}
-//     </ul>
-
-//   )
-// }
-// class Parent extend Component{
-//   consructor(){
-//     super()
-//     this.state={
-//       books:[],
-//       favoritAuthors:[]
-//     }
-//   }
-//   render(){
-//     return(
-//       <div>
-//       <Books books={this.state.books}  />
-//       <favoritAuthors books={this.state.favoritAuthors}  />
-//       </div>
-//     )
-//   }
-// }
-
-// class Main extends Component {
-//   constructor() {
-//     super()
-//     this.state = {
-//       currentUser: {},
-//       gamesAll: [],
-//       gamesMostPopular: []
-//     }
-//   }
-//   render() {
-//     return (
-//       <div>
-//         <p>Welcome, {this.state.currentUser}!</p>
-//         <AllGames allGames={this.state.gamesAll} />
-//         <MostPopular mostPopular={this.state.gamesMostPopular} />
-//       </div>
-//     )
-//   }
-// }
-
-// const List=({props})=>{
-//   return(
-//     <div>
-//     <div className="coolHeader">{props.title}</div>
-//     <ul>
-//     {props.list.map(listItem=>{
-//       <li className="cool">{listItem}</li>
-//     })}
-//     </ul>
-//     </div>
-//   )
-// }
-
-// class Main extends component{
-//   constructor(){
-//     super()
-//     this.state={
-//       input:[]
-//     }
-//   const handleChange=(e) =>{
-//     {
-//     this.setState({
-//       [e.target.name]:e.target.value
-//     })
-//   }
-//   }
-//   render(){
-//     return(
-//       <div>
-//       <input  type="text" name="input"  value={this.state.input} onChange={handleChange}/>
-//       </div>
-//     )
-//   }
-// }
+//statele<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
